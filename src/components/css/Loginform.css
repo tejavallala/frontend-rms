@@ -1,0 +1,88 @@
+/* LoginForm.css */
+.home-link {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .home-icon-container {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    background-color: #ddd;
+    margin-right: 10px;
+  }
+  
+  .home-icon {
+    margin: 5px;
+    color: #555;
+  }
+  
+  .home-text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .login-container {
+    background-color: #B8BFD8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-form-container {
+    background-color: #FFF0F5;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Increase the maximum width of the form container */
+    width: 100%;
+  }
+  
+  .login-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-image-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  
+  .login-form-wrapper {
+    width: 100%;
+  }
+  
+  .login-form {
+    text-align: center;
+  }
+  
+  .login-title {
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .login-links {
+    margin-top: 20px;
+  }
+  
+  .login-links p {
+    margin-bottom: 5px;
+  }
+  

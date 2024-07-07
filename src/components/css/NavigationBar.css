@@ -1,0 +1,36 @@
+.navbar-background {
+    background-image: url('https://www.touchbistro.com/wp-content/uploads/2021/08/restaurant-interior-design-ideas-thumbnail.jpg'); /* Background image URL */
+    background-size: cover; /* Ensure the image covers the entire navbar area */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Full viewport height */
+    position: relative; /* Ensure it is positioned correctly */
+    z-index: 0; /* Ensure it is below the navbar */
+  }
+  
+  .navbar {
+    background-color: transparent !important; /* Make the navbar transparent */
+  }
+  
+  .nav-link:hover {
+    color: #f8c94b !important; /* Change the text color on hover */
+  }
+  
+  .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5); /* Light border color for the toggler */
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* Light icon for the toggler */
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem; /* Increase font size for the brand */
+    font-weight: bold; /* Bold font weight for the brand */
+  }
+  
+  .nav-item .nav-link {
+    padding: 10px 15px; /* Adjust padding for the nav links */
+    font-size: 1.1rem; /* Slightly increase font size for the links */
+  }
+  

@@ -1,0 +1,48 @@
+/* General container styling */
+.container {
+    margin-top: 50px;
+  }
+  
+  /* Title styling */
+  h2 {
+    color: #343a40; /* Dark gray color for the title */
+    font-weight: bold;
+  }
+  
+  /* Table styling */
+  .table {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table th, .table td {
+    padding: 12px;
+    vertical-align: middle;
+    text-align: left;
+  }
+  
+  .table thead th {
+    background-color: #343a40; /* Dark background for header */
+    color: #fff; /* White text color */
+  }
+  
+  .table tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa; /* Light gray background for odd rows */
+  }
+  
+  .table tbody tr:nth-of-type(even) {
+    background-color: #fff; /* White background for even rows */
+  }
+  
+  .table tbody tr:hover {
+    background-color: #e9ecef; /* Light gray background on hover */
+  }
+  
+  .table-responsive {
+    overflow-x: auto;
+    margin-top: 20px;
+  }
+  
